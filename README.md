@@ -1,5 +1,3 @@
-# Realestate_Ai_Assistant
-
 🏡 NoBrokerage AI Chatbot
 An AI-powered property search assistant built with Streamlit. Users can ask natural-language queries like:
 
@@ -22,9 +20,6 @@ nobrokerage-ai/
 │   ├── project.csv
 │   └── ProjectAddress.csv
 └── README.md                   # Project documentation
-
-
-
 🚀 Getting Started
 1. Install dependencies
 bash
@@ -68,8 +63,6 @@ python
   "budget": 9000000,
   "location_keywords": ["Chembur"]
 }
-
-
 ✅ search.py — Property Search
 Filters the merged dataset using parsed filters.
 
@@ -86,9 +79,6 @@ results = search_properties(df, {
 })
 Output: A filtered DataFrame with matching properties.
 
-
-
-
 ✅ summarizer.py — Result Summary
 Generates a short summary of the search results.
 
@@ -101,8 +91,6 @@ summary = generate_summary(results, filters)
 Output:
 
 Found 12 properties in Mumbai matching 2BHK under ₹90L. Prices range from ₹75L to ₹89L. Popular areas include Chembur and Kurla.
-
-
 
 ✅ helpers.py — Card Formatter
 Formats each property row into a display-friendly dictionary.
@@ -124,8 +112,6 @@ python
   "possession": "Dec 2025",
   "cta": "https://nobrokerage.com/project/sunshine-residency"
 }
-
-
 📊 Data Files
 These CSVs are merged to form the full property dataset:
 
